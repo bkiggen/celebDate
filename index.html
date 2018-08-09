@@ -11,8 +11,8 @@
 
   <body>
     <div class="container">
-      <h1>Find your celeb other half!</h1>
-      <form id="quiz" action="index.html" method="post">
+      <h1 class="jumbotron">Find your celeb other half!</h1>
+      <form id="quiz" action="index.html" method="post" class="well">
 <!--What Gender? -->
         <h4>Are you interested in male or female celebs?</h4>
         <div class="radio">
@@ -59,25 +59,32 @@
         <input type="number" name="drinks" value="">
         <!-- Q3 -->
 
-        <h4>What's your ideal vacation?</h4>
-        <div class="radio">
+        <h4>How many of these things have you done recently? Check all that apply:</h4>
+        <div class="form-check">
           <label>
-            <input type="radio" name="quest3" value="20">
-            A night on the town!
+            <input type="checkbox" class="form-check-input" name="quest3a" value="5">
+            Called out sick... even when you weren't!
           </label>
         </div>
-        <div class="radio">
+        <div class="form-check">
           <label>
-            <input type="radio" name="quest3" value="10">
-            Go to the beach.
+            <input type="checkbox" class="form-check-input" name="quest3b" value="3">
+            Didn't tip at a restaurant
           </label>
         </div>
-        <div class="radio">
+        <div class="form-check">
           <label>
-            <input type="radio" name="quest3" value="0">
-            I don't <em>do</em> vacations.
+            <input type="checkbox" class="form-check-input" name="quest3c" value="20">
+            Drank Linsday style
           </label>
         </div>
+        <div class="form-check">
+          <label>
+            <input type="checkbox" class="form-check-input" name="quest3d" value="50">
+            Rehab.
+          </label>
+        </div>
+
         <!-- Q4 -->
         <h4>What's your ideal vacation?</h4>
         <div class="radio">
