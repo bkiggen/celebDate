@@ -1,5 +1,53 @@
 .men, .women {
-  max-height: 200px;
-  max-width: 300px;
+
   display: none;
+}
+
+.dudes{
+  display: inline;
+  float: left;
+}
+
+.gals{
+  display: inline;
+  float: left;
+}
+
+.row {
+  border: 1px solid red;
+}
+
+img {
+  max-width: auto;
+  height: 150px;
+  overflow-x: hidden;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+.dudes {
+  width:200px;
+  max-height: 200px;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.gals {
+  width: 200px;
+  max-height: 200px;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+h6 {
+  text-align: center;
 }
